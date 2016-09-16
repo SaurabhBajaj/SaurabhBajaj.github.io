@@ -3,6 +3,7 @@ layout: post
 title:  "Redshift: Choosing the right column encodings"
 date:   2016-09-16 11:10:00 -0700
 categories: redshift aws optimizations
+permalink: /redshift-encodings
 ---
 
 This post will teach you how to choose encoding for your tables
@@ -20,13 +21,13 @@ Column compression can be enabled by adding encodings as part of create statemen
 ```
 
 CREATE TABLE public.encoded_table_about_users (
-    id                BIGINT        ENCODE delta IDENTITY(1,1),
-    user_id          VARCHAR(256)                ENCODE runlength,
-    user_name        VARCHAR(256)                ENCODE lzo,
-    user_zipcode     VARCHAR(256)                ENCODE bytedict,
+    id              BIGINT                      ENCODE delta IDENTITY(1,1),
+    user_id         VARCHAR(256)                ENCODE runlength,
+    user_name       VARCHAR(256)                ENCODE lzo,
+    user_zipcode    VARCHAR(256)                ENCODE bytedict,
     user_address    VARCHAR(1024)               ENCODE lzo,
-    user_city     VARCHAR(256)               ENCODE lzo,
-    created_at        TIMESTAMP WITHOUT TIME ZONE ENCODE lzo
+    user_city       VARCHAR(256)                ENCODE lzo,
+    created_at      TIMESTAMP WITHOUT TIME ZONE ENCODE lzo
 )
 DISTKEY(user_id)
 SORTKEY(id);

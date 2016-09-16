@@ -26,7 +26,6 @@ github_username:  SaurabhBajaj
 markdown: kramdown
 theme: minima
 
-
 # Handling Reading
 # safe:         false
 # include:      [".htaccess"]
