@@ -10,6 +10,7 @@ I work on building distributed systems, data infrastructure and other backend sy
 
 Previouly, I worked at Facebook and Instagram on building scalable backend applications.
 
+[Linkedin Profile](https://www.linkedin.com/in/bajajs)
 
 ## Publications
 

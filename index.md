@@ -4,14 +4,13 @@ permanlink: index.html
 title: Saurabh Bajaj
 ---
 
-Welcome to my blog - you can read more about me 
+Welcome to my blog - I write about software engineering, distributed systems and data infrastructure.
 
-- About me **here**
+### Recent blog posts
 
-- insert linkedin profile here
+{% for post in site.posts %}    
 
-- insert blog here
-- write a post about redshift optimizations
-- post about deployment with salt stack
-- using vagrant to set up your dev environment
-- sql
+*{{ post.date | date: "%B %e, %Y" }}*
+### [**{{ post.title }}**]({{ post.url }})
+
+{% endfor %}
