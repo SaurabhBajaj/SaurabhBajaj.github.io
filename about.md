@@ -4,7 +4,6 @@ title: About
 permalink: /about
 ---
 
-# About
 
 I am Saurabh Bajaj, a software engineer working in San Francisco.
 I work on building distributed systems, data infrastructure and other backend systems at Lyft.

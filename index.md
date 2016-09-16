@@ -4,7 +4,6 @@ permanlink: index.html
 title: Saurabh Bajaj
 ---
 
-## Saurabh Bajaj's blog
 Welcome to my blog - you can read more about me 
 
 - About me **here**
