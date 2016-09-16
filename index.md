@@ -9,9 +9,6 @@ Welcome to my blog - I write about software engineering, distributed systems and
 ### Recent blog posts
 
 {% for post in site.posts %}    
-
-*{{ post.date | date: "%B %e, %Y" }}*
-
+(*{{ post.date | date: "%B %e, %Y" }}*)
 ### [**{{ post.title }}**]({{ post.url }})
-
 {% endfor %}
