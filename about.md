@@ -11,6 +11,7 @@ I work on building distributed systems, data infrastructure and other backend sy
 Previouly, I worked at Facebook and Instagram on building scalable backend applications.
 
 [Github Profile](https://github.com/SaurabhBajaj)
+
 [Linkedin Profile](https://www.linkedin.com/in/bajajs)
 
 ## Publications
